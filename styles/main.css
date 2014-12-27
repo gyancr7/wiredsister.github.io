@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'LaneNarrow';
+	src: url('/fonts/LANENAR_-webfont.eot?'), format('eot'),
+		url('/fonts/LANENAR_-webfont.woff'), format('woff'),
+		url('/fonts/LANENAR_-webfont.ttf'), format('truetype'),
+		url('/fonts/LANENAR_-webfont.svg'), format('svg');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	zoom: 1;
+	font-family: 'LaneNarrow', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+header svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.wrapper {
+	margin-top: 65%;
+}
+
+section {
+	padding: 0 3em;
+}
+
+section svg {
+	margin: 2em 0;
+}
+
+section p {
+	font-size: 1.5em;
+	margin: 2em 0;
+}
+
+section a {
+	text-decoration: none;
+	background-color: white; 
+	border: 2px solid #3A694E; /* green color */
+	color: #3A694E;
+	transition: all .3s ease-in;
+	padding: .5em;
+}
+
+section a:hover {
+	background-color: #3A694E;
+	border-color: transparent;
+	color: white;
+}
+
+.first-square {
+	height: 54px; /* number for square math */
+	width: 54px;
+}
+
+.second-squares {
+	height: 7em;
+	width: 7em;
+}
+
+.third-squares {
+	height: 10.5em;
+	width: 10.5em;
+}
