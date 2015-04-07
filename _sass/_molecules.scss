@@ -31,3 +31,33 @@
 			}
 		}
 }
+
+nav em {
+	display: none;
+
+	&:not([class="mobile"]) {
+		display: block;
+	}
+	@media screen and (max-width: $tablet-landscape) {
+		display:  block;
+
+		&:not([class="mobile"]) {
+			display: none;
+		}
+	}
+}
+
+footer {
+	padding: 2em;
+	text-align: center;
+	background: darken($purple, 10%);
+	color: $white;
+
+	a {
+		color: lighten($purple, 50%);
+
+		&:visited, &:active, &:hover {
+			color: lighten($purple, 40%);
+		}
+	}
+}

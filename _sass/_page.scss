@@ -22,3 +22,14 @@
 		  margin: 2em 0 1em;
 	}
 }
+
+.post-list {
+	h1 {
+		font-size: 1.5em;
+	}
+	.content {
+		opacity: .65;
+		font-style: italic;
+		color: $purple;
+	}
+}

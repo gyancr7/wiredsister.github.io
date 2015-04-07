@@ -12,10 +12,13 @@
 			{{ content }}
 		</div>
 	</div>
+
+	{% include footer.html %}
+
 	<!-- le scripts -->
 	<script type="text/javascript" src="{{ site.baseurl }}/scripts/jquery.js"></script>
 	<script type="text/javascript" src="{{ site.baseurl }}/scripts/underscore.js"></script>
-	<!-- <script type="text/javascript" src="{{ site.baseurl }}/scripts/backbone.js"></script> --> 
+	<!-- TODO: add backbone to about page <script type="text/javascript" src="{{ site.baseurl }}/scripts/backbone.js"></script> --> 
 	<script type="text/javascript" src="{{ site.baseurl }}/scripts/about.js"></script>
 	</body>
 </html>

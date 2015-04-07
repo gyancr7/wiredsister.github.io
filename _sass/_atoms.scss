@@ -49,6 +49,14 @@ summary {
 	font-size: 1.2em;
 	background-color: $white;
 	padding: $space;
+	text-align: left;
+
+	h2::first-letter {
+		padding-left: 1em; 
+		font-weight: bold;
+		font-size: 1.4em;
+	}
+
 }
 
 nav {
