@@ -1,0 +1,38 @@
+.post-content {
+	font-size: 1.3em;
+	margin: 0 auto;
+	padding: 2em;
+	line-height: 1.7;
+
+	& p::first-letter {
+		font-size: 1.5em;
+		padding-left: $space;
+		margin-bottom: -.2em;
+
+		@include mobile-only {
+			& {
+				padding-left: .5em;
+			}
+		}
+	}
+
+	@include mobile-only {
+		& {
+			max-width: inherit;
+			width: 100%;
+		}
+	}
+
+	p {
+		margin: 1em 0;
+	}
+}
+
+.post {
+	padding: $space;
+	@include mobile-only {
+		& {
+			padding: 0;
+		}
+	}
+}

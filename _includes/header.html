@@ -1,0 +1,13 @@
+<nav>
+  <img src="{{ site.baseurl }}/images/gina.gif" class="nav--gina-picture" title="Blinking Gina" alt="Self portrait"/>
+  {% if page.title %} <em>You're reading: "{{ page.title }}"</em> {% endif %}
+  {% include navigation.html %}
+  <span class="_top_">Top</span>
+</nav>
+
+<header>
+  <img src="{{ site.baseurl }}/images/gina.gif" class="header--gina-picture" title="Blinking Gina" alt="Self portrait"/>
+  <h2>Happy {{ site.time | date: "%A" }}</h2>
+  {% include navigation.html %}
+  Made with <a href="http://jekyllrb.com/" title="Jekyll Homepage">Jekyll</a>.
+</header>

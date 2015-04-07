@@ -1,0 +1,62 @@
+@mixin mobile-only {
+	@media screen and (max-width : $tablet-portrait) {
+		@content;
+	}
+}
+
+%round {
+	border-radius: 50%;
+}
+
+%bordered {
+	border: $border;
+}
+
+%natural-shadow {
+	box-shadow: inset 0px -1px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+%input {
+  	@extend %bordered;
+  	border-color: darken($light-gray, 10%);
+
+	display: block;
+	width: 100%;
+  	padding: .5em;
+	margin: $little-space 0;
+	cursor: text;
+	color: $purple;
+
+
+	&:active, &:focus {
+  		outline: none;
+  		@extend %natural-shadow;
+  	}
+}
+
+%button {
+	@extend %input;
+
+	background-color: lighten($black, 60%);
+	color: $light-gray;
+	border: 0;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	cursor: pointer;
+  	transition: background-color .2s linear;
+
+	&:enabled {
+		background-color: $purple;
+		color: $white;
+		box-shadow: 0px 2px 0 0 lighten($black, 50%);
+
+		&:hover {
+			background-color: lighten($purple, 5%);
+	  	}
+
+	  	&:active {
+			background-color: darken($purple, 5%);
+			box-shadow: inset 0px -1px 10px 0 fade-out($black, .3);
+	  	}
+	}
+}

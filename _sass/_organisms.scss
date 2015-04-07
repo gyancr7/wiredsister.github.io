@@ -1,0 +1,80 @@
+.links {
+	background-color: $white;
+	overflow: hidden;
+	position: relative;
+	padding: 4em 0;
+	margin-bottom: 4em;
+
+	@include mobile-only {
+		& {
+			padding: $space;
+		}
+	}
+
+	article { 
+		width: 33.33%;
+		float: left;
+		padding: 1em;
+		position: relative;
+		height: 50%;
+		max-height: 15em;
+		min-height: 10em;
+
+		@include mobile-only {
+			& {
+				height: 100%;
+				width: 100%;
+				min-height: 10em;
+				max-height: inherit;
+				min-width: inherit;
+				max-width: inherit;
+				margin: 3em 0;
+			}
+		}
+	}
+	a {
+		bottom: -3em;
+		right: 0;
+		left: 0;
+		position: absolute;
+		font-size: 1.2em;
+		background-color: lighten($purple, 60%);
+		padding: .5em;
+		margin: .3em;
+		transition: all .3s linear;
+
+		&:hover {
+			text-decoration: none;
+			background-color: lighten($purple, 50%);
+			color: lighten($purple, 80%);
+		}
+
+		@include mobile-only {
+			& {
+				margin: .3em 0;
+
+			}
+		}
+	}
+	article:first-of-type {
+		background: #{map-get($background-images, resume)} no-repeat center center;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+	article:nth-of-type(2) {
+		background: #{map-get($background-images, flower)} no-repeat center center;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+	article:last-of-type {
+		background: #{map-get($background-images, giftable)} no-repeat center center;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+}

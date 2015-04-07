@@ -1,0 +1,33 @@
+.header--gina-picture {
+	@extend %round;
+
+	height: 50%;
+	width: 50%;
+	max-width: 15em;
+	max-height: 15em;
+}
+
+.contact {
+	margin: #{ $space * 2 } 0;
+}
+
+.contact--contact-form {
+	width: 100%;
+	height: 100%;
+	margin: $space auto;
+	position: relative;
+}
+
+._top_ {
+	display: none;
+	float: right;
+	margin: 0 .5em;
+	cursor: pointer;
+	font-size: 1.5em;
+
+	@include mobile-only {
+			& {
+				display: block;
+			}
+		}
+}

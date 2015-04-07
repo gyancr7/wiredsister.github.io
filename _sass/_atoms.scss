@@ -1,0 +1,104 @@
+header {
+	h2 {
+		margin-top: .5em;
+	}
+
+	ul {
+		list-style: none;
+		padding: 2em 2em 0.5em;
+
+		li {
+			display: inline-block;
+			margin: 0 0.3em;
+		}
+	}
+}
+
+header, section { 
+	text-align: center;
+	background-color: $light-gray;
+	padding: $space;
+}
+
+button {
+	@extend %button;
+}
+
+textarea, input {
+	@extend %input;
+
+	resize: none;
+}
+
+a {
+	text-decoration: none;
+	color: $purple;
+	transition: color .2s linear;
+
+	&:hover {
+		text-decoration: underline;
+		color: lighten($purple, 15%);
+	}
+	&:visited {
+		color: darken($purple, 10%);
+	}
+}
+
+
+summary {
+	font-size: 1.2em;
+	background-color: $white;
+	padding: $space;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	transition: top 0.2s linear;
+	left: 0;
+	top: -4em;
+	height: 0;
+	right: 0;
+	border-bottom: $border;
+	height: 4em;
+	padding: 1em;
+	background: $white;
+	z-index: 999;
+
+	&.-down {
+		top: 0;
+	}
+
+	em {
+		float: left;
+		margin: .5em 0;
+	}
+
+	img {
+		@extend %bordered;
+		@extend %round;
+
+		height: 2.5em;
+		width: 2.5em;
+		float: left;
+		margin: 0 1em;
+	}
+
+	ul {
+		list-style: none;
+		float: right;
+
+
+		@include mobile-only {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	li {
+		display: inline;
+		margin: 0 1em;
+		vertical-align: sub;
+	}
+}

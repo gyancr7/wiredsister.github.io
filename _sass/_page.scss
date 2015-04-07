@@ -1,0 +1,24 @@
+.page-content {
+	padding: $space;
+	max-width: 75%;
+	margin: 0 auto;
+
+	@include mobile-only {
+		& {
+			max-width: inherit;
+			width: 100%;
+		}
+	}
+
+	.post-list {
+		list-style: lower-greek;
+		padding-left: 1em;
+
+		li {
+			padding: 1em 0;
+		}
+	}
+	.rss-subscribe {
+		  margin: 2em 0 1em;
+	}
+}

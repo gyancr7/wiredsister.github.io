@@ -1,0 +1,19 @@
+$purple: rgb(58, 51, 120);
+$light-gray: rgb(245, 245, 245);
+$border: 1px solid $purple;
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$space: 2em;
+$little-space: 1em;
+
+$mobile-portrait		:  320px !default;
+$mobile-landscape		:  480px !default;
+$tablet-portrait		:  768px !default;
+$tablet-landscape		:  1024px !default;
+$desktop				:  1382px !default;
+
+$background-images: (
+	resume: url("/images/resume.png"), 
+	flower: url("/images/lotus-Recovered.png"), 
+	giftable: url("/images/foo.gif")
+);

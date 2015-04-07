@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="English">
+
+{% include head.html %}
+
+	<body>
+
+	{% include header.html %}
+
+	<div class="page-content">
+		<div class="wrapper">
+			{{ content }}
+		</div>
+	</div>
+	<!-- le scripts -->
+	<script type="text/javascript" src="{{ site.baseurl }}/scripts/jquery.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/scripts/underscore.js"></script>
+	<!-- <script type="text/javascript" src="{{ site.baseurl }}/scripts/backbone.js"></script> --> 
+	<script type="text/javascript" src="{{ site.baseurl }}/scripts/about.js"></script>
+	</body>
+</html>
+
+
