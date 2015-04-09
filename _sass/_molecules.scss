@@ -50,14 +50,50 @@ nav em {
 footer {
 	padding: 2em;
 	text-align: center;
-	background: darken($purple, 10%);
-	color: $white;
+	background: lighten($purple, 50%);
+	color: $purple;
+	position: relative;
+	border-top: $border;
+	height: 300px;
+	overflow: hidden;
+	margin-top: 3em;
+
+	p {
+		position: absolute;
+		bottom: 2em;
+		right: 0;
+		left: 0;
+	}
 
 	a {
 		color: lighten($purple, 50%);
-
-		&:visited, &:active, &:hover {
-			color: lighten($purple, 40%);
-		}
+		text-decoration: underline;
 	}
+}
+
+.trunk {
+	height: 112px;
+	position: absolute;
+	top: -25px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+.sloth {
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	height: 150px;
+	@include transition(all, 1.7s, linear);
+	@include transform(translateY(-200px));
+
+	.-bottom & {
+		@include transform(translateY(0));
+	}
+}
+
+.summary--section {
+	background-color: $white;
 }

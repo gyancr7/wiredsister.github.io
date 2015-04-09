@@ -4,6 +4,20 @@
 	}
 }
 
+@mixin transform ($prop) {
+	-webkit-transform: $prop;
+	-moz-transform: $prop;
+	-ms-transform: $prop;
+	transform: $prop;
+}
+
+@mixin transition ($what, $time, $type) {
+	-webkit-transition: $what $time $type;
+    -moz-transition: $what $time $type;
+    -o-transition: $what $time $type;
+    transition: $what $time $type;
+}
+
 %round {
 	border-radius: 50%;
 }
