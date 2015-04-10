@@ -36,4 +36,10 @@
 
 .home {
 	padding-top: 3em;
+
+	@include mobile-only{
+		& {
+			padding-top: 0;
+		}
+	}
 }

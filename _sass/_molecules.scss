@@ -63,10 +63,11 @@ footer {
 		bottom: 2em;
 		right: 0;
 		left: 0;
+		max-width: 50%;
+		margin: 0 auto;
 	}
 
 	a {
-		color: lighten($purple, 50%);
 		text-decoration: underline;
 	}
 }

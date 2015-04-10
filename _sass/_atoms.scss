@@ -57,6 +57,16 @@ summary {
 		font-size: 1.4em;
 	}
 
+	@include mobile-only {
+		& {
+			padding: 0;
+
+			h2::first-letter {
+				padding-left: 0;
+			}
+		}
+	}
+
 }
 
 nav {
