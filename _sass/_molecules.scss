@@ -98,3 +98,25 @@ footer {
 .summary--section {
 	background-color: $white;
 }
+
+.social-share {
+	display: block;
+	padding: 1em;
+	background: fade-out($purple, .8);
+	color: $purple;
+	text-align: center;
+	margin-top: 3em;
+	text-decoration: none;
+	transition: background .3s linear;
+	text-transform: uppercase;
+	font-weight: bold;
+
+	&:hover {
+		background: fade-out($purple, .6);
+	}
+
+	&:active, &:visited, &:hover {
+		color: $purple;
+		text-decoration: none;
+	}
+}
