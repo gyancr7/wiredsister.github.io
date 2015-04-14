@@ -1,7 +1,7 @@
 <nav>
   <img src="{{ site.baseurl }}/images/gina.gif" class="nav--gina-picture" title="Blinking Gina" alt="Self portrait"/>
-  {% if page.title %} <em class="mobile">{{ page.title | truncate:25 }}...</em>
-  <em>You're reading: {{ page.title | truncate:50 }}...</em> {% endif %}
+  {% if page.title %} <em class="mobile">{{ page.title | truncate:20, "..." }}</em>
+  <em>You're reading: {{ page.title | truncate:50, "..."}}</em> {% endif %}
   {% include navigation.html %}
   <span class="_top_">Top</span>
 </nav>
