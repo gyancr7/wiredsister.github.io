@@ -26,7 +26,7 @@ Actually, no. You're still a loser.
 
 As much as you win, you lose more. Anyone who's ever written code can tell you that. Coding is applied math that looks like English-- a.k.a. it's hard as fuck. The majority of your day is spent focusing on where you tried and didn't catch. These coding bootcamps (see also: _Women Who Foo_ or _Girls That Baz_) seem to forget this. You can't spend 6 weeks coding and magically become a programmer. God, I really wish that was the case. You have to like puzzles. You have to like doing things yourself. You have to be okay with failure. Being a programmer is a state of mind. Maybe I'm more comfortable with the masochism of coding, because I came from acting. Maybe I'm just a masochist.
 
-I've been to a buttload of hackathons. My top drawer is filled with hackathon t-shirts. Last weekend I went to one, spent all night making something, and didn't land an honorable mention. The particulars of this hackathon aren't important and although I'm going on the negative, I admire and respect the volunteers. I'm not upset because I didn't win. I'm not upset that people made better things (and they did). I'm not upset there wasn't more beer and swag. 
+I've been to a buttload of hackathons. My bottom drawer is filled with hackathon t-shirts. Last weekend I went to one, spent all night making something, and didn't land an honorable mention. The particulars of this hackathon aren't important and although I'm going on the negative, I admire and respect the volunteers. I'm not upset because I didn't win. I'm not upset that people made better things (and they did). I'm not upset there wasn't more beer and swag. 
 
 I'm upset because the judges lied to an all-female team to support a political agenda. 
 
