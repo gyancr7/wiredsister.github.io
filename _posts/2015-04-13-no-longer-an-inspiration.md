@@ -10,7 +10,7 @@ There's nothing more pathetic than a sore loser.
 
 I've never thought about losing as a skill set, but it's what I've spent most of my life doing. It's probably what I'm best at. For example, I'm a mediocre chess player. This means that at around 4pm everyday I'm losing positioning midgame to a coworker. It means I fumble material, botch a knight, or don't see the attack on my queen 2 moves ahead. I lose house keys and USB sticks, earrings and lipstick caps. I lose focus. I lose my temper. I've lost family members and lovers. I've lost religions, homes, jobs, and at my worst, I've lost dignity.
 
-My first six months in New York I lost almost 30 pounds. I remember having the flu twice, once while working a double shift shucking oysters. It wasn't long before I was sitting on the steps of my apartment, sobbing on the phone with my mother. I was going to give up acting. It was too hard. I was 22 years old and my brain was rotting away in the waiting line. A few months later someone dropped a $300 Lenovo in my lap and told me to "just fucking move on." 
+During my first six months in New York I lost almost 30 pounds. I remember having the flu twice, once while working a double shift shucking oysters. It wasn't long before I was sitting on the steps of my apartment, sobbing on the phone with my mother. I was going to give up acting. It was too hard. I was 22 years old and my brain was rotting away in the waiting line. A few months later someone dropped a $300 Lenovo in my lap and told me to "just fucking move on." 
 
 So I moved on.
 
