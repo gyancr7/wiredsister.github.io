@@ -120,3 +120,12 @@ footer {
 		text-decoration: none;
 	}
 }
+
+.thumb {
+    height: 5em;
+    width: 5em;
+    float: left;
+    margin: 1em;
+    border-radius: 50%;
+    background-color: $purple;
+}

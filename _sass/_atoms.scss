@@ -124,4 +124,27 @@ nav {
 .help {
 	cursor: help;
 	border-bottom: 1px dotted $purple;
+
+	&::before {
+	    content: '';
+	    opacity: 0;
+	    display: none;
+	    background: white;
+	    color: black;
+	    padding: .5em;
+	    font-size: 1.1em;
+	    @include transition(.7s, linear, ease-in);
+	}
+
+	&.show-tip &::before{
+	    opacity: 1;
+	    display: block;
+	}
+}
+
+@include mobile-only {
+    .help {
+	cursor: default;
+	border-bottom: none;
+    }
 }
