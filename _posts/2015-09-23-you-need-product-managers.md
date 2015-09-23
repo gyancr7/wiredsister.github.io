@@ -14,7 +14,7 @@ Why do people think you don't need product managers?
 
 I've worked at a few early stage startups now and one thing I've noticed is that they all have the same pattern: one really strong part of the organization early on. The catch here is that it's only *one* part of the company that is strong. Usually it ends up being my biggest beef at the startup. "How dare X team always push everyone else around, as if they're more important." In reality it's probably because they *are* more important. If the company was dumping money into a team that wasn't a powerhouse, they probably would have already gone out of business from financial mismanagement.
 
-I'm an engineer. Engineers always think they're right. I often catch myself solving problems we don't have or coupling real world business value with how building it is going to *make me feel*.
+I'm an engineer. Engineers always think they're right. I often catch myself solving problems we don't have or coupling real world business value with how building it is going to *make me feel good*.
 
 "Yeah, you know what this feature needs? That new, shiny thing I saw at that flashy, overpriced conference."
 -----------------------------------------------------------------------------------------------------------
