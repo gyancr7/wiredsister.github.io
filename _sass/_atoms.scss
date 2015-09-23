@@ -148,3 +148,12 @@ nav {
 	border-bottom: none;
     }
 }
+
+blockquote {
+    max-width: 50%;
+    margin: 0 auto;
+    font-style: italic;
+    background-color: $light-gray;
+    padding: .5em 2em;
+    color: fade-out($black, .5);
+}
