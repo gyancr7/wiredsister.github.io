@@ -14,7 +14,7 @@ header {
 	}
 }
 
-header, section { 
+header, section {
 	text-align: center;
 	background-color: $light-gray;
 	padding: $space;
@@ -156,4 +156,10 @@ blockquote {
     background-color: $light-gray;
     padding: .5em 2em;
     color: fade-out($black, .5);
+}
+
+@include mobile-only {
+    blockquote {
+        max-width: 100%;
+    }
 }
