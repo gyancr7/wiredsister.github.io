@@ -4,7 +4,7 @@ email: drawGinadraw@gmail.com
 description: "The personal blog for Gina Maini, Front End Developer in New York City. All rights reserved."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "gina.codes" # the base hostname & protocol for your site
-twitter_username: thewiredsister
+twitter_username: wiredsis
 github_username:  wiredsister
 
 # Build settings
@@ -13,3 +13,4 @@ sass:
   style: compressed
 paginate: 5
 paginate_path: "/blog/page:num/"
+gems: [jekyll-paginate]
