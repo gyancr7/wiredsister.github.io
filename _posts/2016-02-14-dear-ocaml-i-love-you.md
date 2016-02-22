@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ocaml Love"
+title:  "OCaml Love"
 date:   2016-02-14 10:12:00
 author: "Gina Maini"
 ---
@@ -11,11 +11,11 @@ And I'm in love!
 ![Duck Love](/images/duck-love.gif)
 
 I decided to write this blog post because I'm so head over heels for
-OCaml I just had to pause and share the love. By the end of this post,
+OCaml that I just had to pause and share the love. By the end of this post,
 I hope you're vomiting glitter and on the functional programming hype
 train.
 
-It might help the reader to know that my previous jobs were JavaScript engineering positions (Angular, jQuery, Node, the usual suspects you waste countless hours debugging) so if I mispronounce some type theory thing, you have permission to roll your eyes. 
+It might help the reader to know that my previous jobs were JavaScript engineering positions (Angular, jQuery, Node, the usual suspects in which you waste countless hours debugging) so if I mispronounce some type theory thing, you have permission to roll your eyes. 
 
 In my past-life (a few months ago), I constantly felt like web development was... too hard. Like sisyphus rolling a boulder uphill to the end of time
 hard. Don't get me wrong-- I loved a lot of the tools I worked with. I like Backbone, I think SASS is the beesknees, and the Node eco-system is dope.
@@ -135,7 +135,7 @@ problem aren't important, but the thing to note is I *pattern
 match* on the value of the `fate` type given back from the `sorting_hat`
 function-- and from that generate some strings to eventually print. This
 is MUCH more elegant and readable than comparing strings or mutating
-return values.
+input values.
 
 ## 2. The hardest thing about functional, typed languages will be using Monads. 
 
