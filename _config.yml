@@ -1,11 +1,13 @@
 # Site settings
 title: Gina Codes
 email: drawGinadraw@gmail.com
-description: "The personal blog for Gina Maini, Front End Developer in New York City. All rights reserved."
+description: "The personal blog for Gina Maini, Functional Programmer in Oakland, CA. All rights reserved."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "gina.codes" # the base hostname & protocol for your site
+url: "www.gina.codes" # the base hostname & protocol for your site
 twitter_username: wiredsis
 github_username:  wiredsister
+excerpt_separator: ""
+highlighter: rouge
 
 # Build settings
 markdown: kramdown

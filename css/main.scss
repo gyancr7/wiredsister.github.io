@@ -1,16 +1,13 @@
 ---
 ---
+@import "pygments";
 @import "normalize";
-
 @import "config";
 @import "mixins";
-
-@import "typography";
 @import "base";
-
 @import "atoms";
 @import "molecules";
 @import "organisms";
-
 @import "post";
 @import "page";
+

@@ -6,7 +6,6 @@
 
 	& p::first-letter {
 		font-size: 1.5em;
-		padding-left: .5em;
 		margin-bottom: -.2em;
 
 		@include mobile-only {
@@ -35,5 +34,15 @@
 		& {
 			padding: 0;
 		}
+	}
+	
+	img {
+	    display: block;
+	    width: 100%;
+	    margin: 0 auto;
+
+	    @media screen and (min-width : $tablet-landscape) {
+		width: 50%;
+	    }
 	}
 }

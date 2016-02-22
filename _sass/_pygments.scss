@@ -1,8 +1,8 @@
-figure.highlight {
+.highlight {
     margin: 0;
     background-color: #092133;
     padding: 1em;
-    font-family: monospace;
+    pre, code { font-family: monospace, monospace !important; }
     
     .hll { background-color: #ffffcc }
     .c { color: #87ceeb} /* Comment */
