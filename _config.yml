@@ -3,7 +3,7 @@ title: Gina Codes
 email: drawGinadraw@gmail.com
 description: "The personal blog for Gina Maini, Functional Programmer in Oakland, CA. All rights reserved."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "www.gina.codes" # the base hostname & protocol for your site
+url: "http://www.gina.codes" # the base hostname & protocol for your site
 twitter_username: wiredsis
 github_username:  wiredsister
 excerpt_separator: ""
