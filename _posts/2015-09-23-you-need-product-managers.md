@@ -3,6 +3,10 @@ layout: post
 title: "You Need Product Managers"
 date: 2015-09-23 08:45:00
 author: "Gina Maini"
+category: opinion
+tags:
+  - startups
+  - product
 ---
 
 Why do people think you don't need product managers?

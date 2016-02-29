@@ -1,5 +1,6 @@
 # Site settings
 title: Gina Codes
+name: Gina Codes
 email: drawGinadraw@gmail.com
 description: "The personal blog for Gina Maini, Functional Programmer in Oakland, CA. All rights reserved."
 baseurl: "" # the subpath of your site, e.g. /blog/

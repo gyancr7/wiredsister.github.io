@@ -3,6 +3,10 @@ layout: post
 title:  "OCaml Love"
 date:   2016-02-14 10:12:00
 author: "Gina Maini"
+category: ocaml
+tags:
+  - ocaml
+  - programming
 ---
 
 For the past 3 months I've been learning OCaml.

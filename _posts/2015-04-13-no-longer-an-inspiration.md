@@ -3,6 +3,10 @@ layout: post
 title:  "No Longer An Inspiration"
 date:   2015-04-13 14:09:00
 author: "Gina Maini"
+category: opinion
+tags:
+  - programming
+  - feminism
 ---
 
 There's nothing more pathetic than a sore loser. 
