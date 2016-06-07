@@ -28,8 +28,8 @@ I'm specifically focusing on hacking on the Mirage implementation of
 Syslog which was started by Jochen Bartl ([verbosemode], lobo on IRC)
 who is an all around awesome guy to work with. This is Jochen's first
 big OCaml project (mine too) and has already proven how capable and
-passionate he is by leading the charge. OCaml is a great functional
-systems language for [many reasons]; mainly safety, blazing fast
+passionate he is by leading the charge. OCaml is a great systems
+language for [many reasons] like safety, blazing fast
 performance, and powerful expressiveness. To apply to work as an
 outreachy intern, I had to submit a flagship [patch] where I used
 [irmin] (a pure OCaml distributed database a-la-git-style) for
@@ -60,7 +60,7 @@ application.
 What is the Syslog protocol?
 ==
 
-The Syslog is a standard protocol to convey event notification
+Syslog is a standard protocol to convey event notification
 messages. Mirage's goal is to have a standalone unikernel
 receiver/collector of Syslog messages that could parse them and store
 them, but there are other types of Syslog devices that should be
@@ -73,7 +73,7 @@ Here is the interface file for the repository syslog-message:
 
 The types make it easy to read here, but basically there are two
 important concepts that make up the abstract syslog message type:
-faciliy and severity. Facility here is a broad category that either an
+facility and severity. Facility here is a broad category that either an
 operating system, processes, or application would quantify their
 messages into. Severity is just like what it sounds-- how important
 is this message? If the message is high severity, maybe the network
