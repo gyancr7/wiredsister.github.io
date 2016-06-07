@@ -32,15 +32,16 @@ textarea, input {
 
 a {
 	text-decoration: none;
-	color: $purple;
+	color: mix($purple, $blue, 90%);	
 	transition: color .2s linear;
 
 	&:hover {
 		text-decoration: underline;
-		color: lighten($purple, 15%);
+		color: darken($blue, 25%);
 	}
+	
 	&:visited {
-		color: darken($purple, 10%);
+		color: mix(mix($blue, $red, 20%), $purple, 90%);
 	}
 }
 
